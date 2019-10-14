@@ -1,0 +1,40 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    min-height: calc(100vh - 80px);
+  }
+
+.left {
+    background-color: navy;
+    color: lightblue;
+}
+
+.right {
+    background-color: yellow;
+    color: rgb(126, 110, 19);
+}
+
+button {
+    color: silver;
+    background-color: rgba(128, 0, 0, 0.767);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+p {
+    color: maroon;
+    background-color: silver;
+    font-size: 20px
+}
+
+li {
+    background-color: silver;
+}
